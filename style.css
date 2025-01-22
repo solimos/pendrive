@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400italic|Ubuntu+Condensed|Fjalla+One);
+
+*{
+  margin:0;
+  padding:0 auto;
+}
+
+#wrap{
+   
+  margin: 100px auto;
+  width:250px;
+  height:250px;
+}
+
+#usb{
+  border: solid 1px #c1c1c1;
+  width:70px;
+  height:70px;
+  margin-top:15px;
+  float:left;
+  
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.03) 29%, rgba(0,0,0,0.62) 92%, rgba(196,196,196,0.66) 97%, rgba(196,196,196,0.68) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(29%,rgba(0,0,0,0.03)), color-stop(92%,rgba(0,0,0,0.62)), color-stop(97%,rgba(196,196,196,0.66)), color-stop(99%,rgba(196,196,196,0.68))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.03) 29%,rgba(0,0,0,0.62) 92%,rgba(196,196,196,0.66) 97%,rgba(196,196,196,0.68) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.03) 29%,rgba(0,0,0,0.62) 92%,rgba(196,196,196,0.66) 97%,rgba(196,196,196,0.68) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.03) 29%,rgba(0,0,0,0.62) 92%,rgba(196,196,196,0.66) 97%,rgba(196,196,196,0.68) 99%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.03) 29%,rgba(0,0,0,0.62) 92%,rgba(196,196,196,0.66) 97%,rgba(196,196,196,0.68) 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08000000', endColorstr='#adc4c4c4',GradientType=0 ); /* IE6-9 */
+}
+
+#usb:before{
+  content:"";
+  position:absolute;
+  background-color:#000;
+  width:13px;
+  height:13px;
+  margin-left:25px;
+  margin-top:12px;
+}
+
+#usb:after{
+  content:"";
+  position:absolute;
+  background-color:#000;
+  width:13px;
+  height:13px;
+  margin-left:25px;
+  margin-top:-25px;
+}
+
+#split1, #split2{
+  height:35px;
+}
+
+#split1{
+ border-bottom: solid 1px #c1c1c1;
+}
+
+#pbody{
+  border: solid 1px #c1c1c1;
+  width:180px;
+  margin-left:70px;
+  height:100px;
+  border-radius:10px;
+  
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 1%, rgba(0,0,0,0.6) 91%, rgba(196,196,196,0.65) 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(91%,rgba(0,0,0,0.6)), color-stop(98%,rgba(196,196,196,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0.6) 91%,rgba(196,196,196,0.65) 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0.6) 91%,rgba(196,196,196,0.65) 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0.6) 91%,rgba(196,196,196,0.65) 98%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(0,0,0,0.6) 91%,rgba(196,196,196,0.65) 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6c4c4c4',GradientType=0 ); /* IE6-9 */
+}
+
+#split1:before{
+  content:"";
+  position:absolute;
+  
+  border:solid 1px #c1c1c1;
+  border-bottom:none;
+  width:15px;
+  height:6px;
+  margin-top:29px;
+  margin-left:5px;
+}
+
+#split2:after{
+  content:"";
+  position:absolute;
+  
+  border:solid 1px #c1c1c1;
+  border-bottom:none;
+  width:15px;
+  height:6px;
+  margin-top:-7px;
+  margin-left:53px;
+}
+
+#pbody:before{
+  content:"";
+  position:absolute;
+  background-color:#000;
+  width:9px;
+  height:102px;
+  margin-top:-1px;
+  margin-left:-2px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+#pbody:after{
+  content:"";
+  position:absolute;
+  background-color:#000;
+  width:9px;
+  height:102px;
+  margin-top:-1px;
+  margin-left:171px;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+  
+}
+
+#led{
+  
+  position:absolute;
+  background-color:#FF0A0A;
+  width:8px;
+  height:8px;
+  margin-left: 140px;
+  margin-top:46px;
+  border-radius:50%;
+  -webkit-box-shadow: 1px 1px 10px 0 #FF0A0A;
+  box-shadow: 1px 1px 10px 0 #FF0A0A;
+}
+
+p{
+  position:absolute;
+  margin-top:75px;
+  margin-left:75px;
+  font-size:13px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#shadow{
+  width:250px;
+  height:0px;
+  background-color:;
+  
+  position:absolute;
+  margin-top:15px;
+  -webkit-box-shadow: -1px 1px 50px 10px #6E6E6E;
+  box-shadow: -1px 1px 50px 10px #6E66E;
+}
